@@ -1,0 +1,32 @@
+ <div class="cotainer" style=padding-top:50px;>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Giriş Sayfası</div>
+                    <div class="card-body">
+                        <form action="/login" method="POST">
+                            <div class="form-group row">
+                                <label for="email_address" class="col-md-4 col-form-label text-md-right">Kullanıcı Adı</label>
+                                <div class="col-md-6">
+                                    <input type="text" id="login-username" class="form-control" name="username" required autofocus placeholder="Kullanıcı Adı">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="password" class="col-md-4 col-form-label text-md-right" >Şifre</label>
+                                <div class="col-md-6">
+                                    <input type="password" id="password" class="form-control" name="password" required placeholder="Şifre">
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 offset-md-4">
+                                <input type="submit" class="btn btn-primary" value="Giriş">
+                                <a href="/login/signup" class="btn btn-default">Kayıt Ol</a>
+                                
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
